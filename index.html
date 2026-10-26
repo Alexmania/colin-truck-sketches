@@ -82,6 +82,7 @@ function render() {
   main.innerHTML = "";
   if (!list.length) { main.innerHTML = '<div class="empty">No sketches match.</div>'; return; }
   let lastKey = "";
+  let grid = null;
   list.forEach(x => {
     const key = x.d + "|" + x.b;
     if (key !== lastKey) {
@@ -90,7 +91,7 @@ function render() {
       h.className = "group";
       h.textContent = x.dl + " — " + x.b;
       main.appendChild(h);
-      var grid = document.createElement("div"); grid.className = "grid"; main.appendChild(grid);
+      grid = document.createElement("div"); grid.className = "grid"; main.appendChild(grid);
     }
     const card = document.createElement("div"); card.className = "card";
     card.innerHTML = '<img loading="lazy" alt=""><div class="body"><div class="t"></div><span class="tag"></span><a class="dl" download>Download</a></div>';
