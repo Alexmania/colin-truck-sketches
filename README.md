@@ -9,3 +9,5 @@ New batches of 5 sketches are added twice a day (morning & afternoon).
 1. Append lines to `~/workspace/coloring-book/sketch-archive-log.md` (`DATE | BATCH | TITLE | CATEGORY | FILE`).
 2. Run `.tools/build_site.py` (copies images into `assets/`, makes thumbnails, rebuilds `index.html`).
 3. Run `.tools/upload.py` to publish (GitHub Git Data API; keeps `main` and `gh-pages` in lockstep, Pages serves from `gh-pages`).
+
+<!-- Republished 2026-11-09 (retry 2): 205 sketches -->
