@@ -2,7 +2,7 @@
 
 A scannable archive of Colin's truck coloring sketches on GitHub Pages: browse by date, filter by truck type, and download any sketch full-size.
 
-New batches of 5 sketches are added twice a day (morning & afternoon).
+New batches of 20 sketches are added twice a day (morning & afternoon).
 
 ## Adding sketches
 
