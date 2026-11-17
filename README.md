@@ -2,6 +2,8 @@
 
 A scannable archive of Colin's truck coloring sketches on GitHub Pages: browse by date, filter by truck type, and download any sketch full-size.
 
+Tap the ♥ on any sketch to save it to Favorites (stored in your browser) — the ♥ Favorites filter shows them all together.
+
 New batches of 20 sketches are added twice a day (morning & afternoon).
 
 ## Adding sketches
